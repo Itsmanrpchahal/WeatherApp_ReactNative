@@ -94,6 +94,7 @@ export default function HomeScreen() {
         <ReusableButton
           label="Get Weather"
           loading={loading}
+          disabled={city.length ? false : true}
           backgroundColor={colors.green}
           onPress={() => fetchWeather(city)}
           textColor="#ffffff"

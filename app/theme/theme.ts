@@ -24,7 +24,7 @@ export const lightTheme: CustomTheme = {
     themeTab: '#3bb3b1',
     secondary: "#8BECEB",
     tertiary: '#3F87FC',
-    card: '#f1f1f1',
+    card: '#D7D7D7',
     text1:"#000",
     green:'#3bb3b1'
   },
